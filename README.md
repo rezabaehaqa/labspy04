@@ -61,24 +61,21 @@ Berikut output dari programnya yang kita bikin
 ![Gambar 1](screenshot/ss2.png)
 
 ### Tugas Pratikum
-Buat program sederhana untuk menambahkan data kedalam sebuah
-list dengan rincian sebagai berikut:
-• Progam meminta memasukkan data sebanyak-banyaknya (gunakan
-perulangan)
-• Tampilkan pertanyaan untuk menambah data (y/t?), apabila jawaban
-t (Tidak), maka program akan menampilkan daftar datanya. • Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%,
-uts: 35%, uas: 35%)
+Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian sebagai berikut:
+• Progam meminta memasukkan data sebanyak-banyaknya (gunakan perulangan)
+• Tampilkan pertanyaan untuk menambah data (y/t?), apabila jawaban t (Tidak), maka program akan menampilkan daftar datanya. 
+• Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%,uts: 35%, uas: 35%)
 • Buat flowchart dan penjelasan programnya
 
-sebelum membuat programnya kita lihat dulu alur flowchartnya, sebagai acuan dalam pengambilan keputusan guna memudahkan dalam urutan proses pembuatanya :
+sebelum membuat programnya kita lihat dahulu alur flowchartnya, sebagai acuan dalam pengambilan keputusan guna memudahkan dalam urutan proses pembuatanya :
 ![Gambar 1](screenshot/ss3.png)
 1. pertama saya membuat inputan dan looping agar program terus berjalan
 ```sh
 while True: 
 c = input("\napakah ingin menambah data? y/t ")
 ```
-2. kemudian membuat fungsi if apabila menginput 'y'
-3. percabangan if untuk apabila menginput 't'
+2. kemudian menngunakan fungsi if apabila menginput 'y'
+3. percabangan if juga apabila menginput 't'
 4. terakhir saya menggunakan else break untuk menyetop loopingan yang kita bikin
 
 Berikut screenshot dari program pada visual studio code yang kita bikin:
